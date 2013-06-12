@@ -54,9 +54,9 @@
     <Compile Include="Classes\Scenarios\Campaign.cs" />
     <Compile Include="Classes\Control.cs" />
     <Compile Include="Classes\Unit\Fighter.cs" />
-    <Compile Include="Event.cs" />
-    <Compile Include="EventType.cs" />
-    <Compile Include="E_Message.cs" />
+    <Compile Include="Classes\Scenarios\Event.cs" />
+    <Compile Include="Classes\Scenarios\EventType.cs" />
+    <Compile Include="Classes\Scenarios\E_Message.cs" />
     <Compile Include="Forms\About.cs">
       <SubType>Form</SubType>
     </Compile>
