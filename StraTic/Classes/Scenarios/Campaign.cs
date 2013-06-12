@@ -7,6 +7,11 @@ namespace StraTic
 {
     public class Campaign
     {
+        public Campaign(int id, Database database)
+        {
+            throw new System.NotImplementedException();
+        }
+    
         public string Name
         {
             get

@@ -7,6 +7,11 @@ namespace StraTic
 {
     public class Scenario
     {
+        public Scenario(int id, Database database)
+        {
+            throw new System.NotImplementedException();
+        }
+    
         public Game Game
         {
             get

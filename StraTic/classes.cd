@@ -190,8 +190,8 @@
   <Class Name="StraTic.Scenario">
     <Position X="2.5" Y="0.75" Width="1.5" />
     <AssociationLine Name="Game" Type="StraTic.Game">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="2.255" Y="4.367" />
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.38" Y="3.888" Height="0.182" Width="0.611" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
