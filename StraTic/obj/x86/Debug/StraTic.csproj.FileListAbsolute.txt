@@ -1,0 +1,12 @@
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.About.resources
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.Forms.Game.Field.resources
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.Main.resources
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.Properties.Resources.resources
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\User\Code\Übung\StraTic\StraTic\bin\Debug\StraTic.exe.config
+C:\User\Code\Übung\StraTic\StraTic\bin\Debug\StraTic.exe
+C:\User\Code\Übung\StraTic\StraTic\bin\Debug\StraTic.pdb
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.exe
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.pdb

@@ -1,0 +1,767 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @11 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Condition" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @11 Member=(Name=toString OverloadingParameters=[@26]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="toString" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @11 Member=field)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="field" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @11 Member=type)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @11 Member=value)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="value" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="ConditionTypes" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 Member=Greater)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="Greater" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 Member=GreaterSame)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="GreaterSame" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 Member=Is)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="Is" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 Member=Less)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="Less" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 Member=LessSame)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="LessSame" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 Member=Like)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="Like" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @13 Member=Not)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="Not" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @58)" Category="CodeSchema_Method" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="Delete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @59)" Category="CodeSchema_Method" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @60)" Category="CodeSchema_Method" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="Insert" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @64)" Category="CodeSchema_Method" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @65)" Category="CodeSchema_Method" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="Update" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Database" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @72)" Category="CodeSchema_Method" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="close" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="open" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 @91)" Category="CodeSchema_Property" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 Member=(Name=getDatabase OverloadingParameters=[@26,@57,@57,@57,@57]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="getDatabase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 Member=db_name)" Category="CodeSchema_Field" CodeSchemaProperty_IsProtected="True" IsDragSource="True" Label="db_name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 Member=db_password)" Category="CodeSchema_Field" CodeSchemaProperty_IsProtected="True" IsDragSource="True" Label="db_password" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 Member=db_server)" Category="CodeSchema_Field" CodeSchemaProperty_IsProtected="True" IsDragSource="True" Label="db_server" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @15 Member=db_user)" Category="CodeSchema_Field" CodeSchemaProperty_IsProtected="True" IsDragSource="True" Label="db_user" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @58)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Delete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @59)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @60)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Insert" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @64)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @65)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Update" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="DB_Access" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @72)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="close" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @73)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="Connection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="open" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @17 @91)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @58)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Delete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @59)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @60)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Insert" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @64)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @65)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Update" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="DB_FileSystem" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @72)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="close" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @73)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="Connection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="open" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @19 @91)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @58)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Delete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @59)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @60)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Insert" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @64)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @65)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Update" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="DB_MSSQL" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @72)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="close" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @73)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="Connection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="open" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @21 @91)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @58)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Delete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @59)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @60)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Insert" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @64)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @65)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Update" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="DB_MySQL" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @72)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="close" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @73)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="Connection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="open" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @23 @91)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @25 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="DB_Types" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @25 Member=Access)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="Access" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @25 Member=FileSystem)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="FileSystem" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @25 Member=MSSQL)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="MSSQL" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @25 Member=MySQL)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="MySQL" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @25 Member=XML)" Category="CodeSchema_Field" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" IsDragSource="True" Label="XML" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @58)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Delete" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @59)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @60)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Insert" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @64)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Select" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @65)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Update" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="DB_XML" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @72)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="close" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @73)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="Connection" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="open" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @27 @91)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @29 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Field" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @29 Member=Cells)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Cells" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @29 Member=Height)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Height" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @29 Member=Width)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Width" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=(Name=Dispose OverloadingParameters=[(@53 @54 Type=Boolean)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Dispose" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=(Name=linkLabel_LinkClicked OverloadingParameters=[(@53 @54 Type=Object),(@61 Namespace=System.Windows.Forms Type=LinkLabelLinkClickedEventArgs)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="linkLabel_LinkClicked" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=(Name=okButton_Click OverloadingParameters=[(@53 @54 Type=Object),(@53 @54 Type=EventArgs)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="okButton_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=TopCaption)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="TopCaption" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=bottomPanel)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="bottomPanel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=companyNameLabel)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="companyNameLabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=components)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="components" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=copyrightLabel)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="copyrightLabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=linkLabel)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="linkLabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=mainPicture)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="mainPicture" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=okButton)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="okButton" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=productNameLabel)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="productNameLabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=productVersionLabel)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="productVersionLabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=shapeContainer1)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="shapeContainer1" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @3 Member=topPanel)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="topPanel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @31 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Game" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @31 Member=Database)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Database" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @31 Member=Players)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Players" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @31 Member=World)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="World" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @31 Member=database)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="database" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @31 Member=players)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="players" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @31 Member=world)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="world" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @56)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="AttackUnit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @66)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="MoveTo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Hero" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @70)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @71)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @74)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @75)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Current" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @76)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @82)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @86)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_X" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @87)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_Y" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @88)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_Z" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @89)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 @90)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Armor)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Armor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Accuracy)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Attack)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Defense)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Health)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Health" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Move)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Points)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Range_Max)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Base_Range_Min)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @33 Member=Weapon)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Weapon" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 @77)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="ID" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 @79)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 @80)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 @81)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 Member=(Name=load OverloadingParameters=[@55]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="load" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 Member=Mod_Accuracy)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 Member=Mod_Health)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Health" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 Member=Mod_Range_Max)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @35 Member=Mod_Range_Min)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @37 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Main" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @37 Member=(Name=Dispose OverloadingParameters=[(@53 @54 Type=Boolean)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Dispose" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @37 Member=InitializeComponent)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="InitializeComponent" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @37 Member=components)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="components" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @39 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Options" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @39 Member=(Name=Dispose OverloadingParameters=[(@53 @54 Type=Boolean)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" FunctionTypeFlags="Methode" IsDragSource="True" IsOverloaded="True" Label="Dispose" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @39 Member=InitializeComponent)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="InitializeComponent" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @39 Member=components)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="components" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @41 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Player" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @41 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @41 Member=Units)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Units" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Soldier" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @70)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @71)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @74)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @75)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Current" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @76)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @82)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @89)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 @90)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Armor)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Armor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Accuracy)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Attack)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Defense)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Health)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Health" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Move)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Points)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Range_Max)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Base_Range_Min)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Base_Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=MainWeapon)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="MainWeapon" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=SecondWeapon)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="SecondWeapon" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=Soldiers)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Soldiers" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @43 Member=XP)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="XP" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @56)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="AttackUnit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @66)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="MoveTo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Squad" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @70)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @71)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @74)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @75)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Current" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @76)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @82)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @86)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_X" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @87)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_Y" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @88)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_Z" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @89)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 @90)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @45 Member=Soldiers)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Soldiers" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @56)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="AttackUnit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @66)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="MoveTo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @70)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @71)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @74)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @75)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Current" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @76)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Health_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @82)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @86)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_X" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @87)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_Y" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @88)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="POS_Z" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @89)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 @90)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @47 Member=Image)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Image" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @56)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Methode Virtuell" IsDragSource="True" Label="AttackUnit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @66)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Methode Virtuell" IsDragSource="True" Label="MoveTo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Vehicle" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @70)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @71)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @74)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @75)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Health_Current" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @76)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Health_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @82)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @86)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="POS_X" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @87)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="POS_Y" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @88)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="POS_Z" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @89)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @49 @90)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" FunctionTypeFlags="Eigenschaftszuweisung Virtuell" IsDragSource="True" Label="Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Armor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 @77)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="ID" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 @79)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 @80)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 @81)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 Member=(Name=load OverloadingParameters=[@55]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="load" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 Member=Mod_Accuracy)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 Member=Mod_Health)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Health" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 Member=Mod_Range_Max)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @5 Member=Mod_Range_Min)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 @68)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Weapon" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 @77)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="ID" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 @79)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 @80)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 @81)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 @83)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Name" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 @85)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Points" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 Member=(Name=load OverloadingParameters=[@55]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="load" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 Member=Mod_Accuracy)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Accuracy" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 Member=Mod_Health)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Health" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 Member=Mod_Range_Max)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Range_Max" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @51 Member=Mod_Range_Min)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Range_Min" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 @91)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=(Name=.ctor OverloadingParameters=[@55,@55,@55,@10]))" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="Cell" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=X)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="X" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=Y)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Y" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=Z)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Z" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=type)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="type" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=x)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="x" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=y)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="y" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @7 Member=z)" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" IsDragSource="True" Label="z" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @9 @77)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="ID" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @9 @79)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Attack" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @9 @80)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Defense" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @9 @81)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Move" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @9 Member=(Name=.ctor OverloadingParameters=[@55]))" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="CellType" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @9 Member=Image)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Image" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 @9 Member=Mod_Range)" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Eigenschaftszuweisung" IsDragSource="True" Label="Mod_Range" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 Type=Program Member=Main)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="Main" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="(@1 @2 Type=Program)" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" IsDragSource="True" Label="Program" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@10" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="CellType" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@12" Category="CodeSchema_Struct" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Condition" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@14" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="ConditionTypes" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@16" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Database" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@18" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="DB_Access" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@20" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="DB_FileSystem" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@22" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="DB_MSSQL" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@24" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="DB_MySQL" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@26" Category="CodeSchema_Enum" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="DB_Types" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@28" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="DB_XML" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@30" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Field" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@32" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Game" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@34" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Hero" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@36" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Item" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@38" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Main" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@4" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="About" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@40" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Options" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@42" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Player" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@44" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Soldier" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@46" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Squad" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@48" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Unit" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@50" Category="CodeSchema_Class" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Vehicle" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@52" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Weapon" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@6" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Armor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@62" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="topPanel_Paint" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@63" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="About" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@67" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="createField" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@69" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" FunctionTypeFlags="Konstruktor" IsDragSource="True" Label="About" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@78" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" FunctionTypeFlags="Methode" IsDragSource="True" Label="InitializeComponent" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+    <Node Id="@8" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" IsDragSource="True" Label="Cell" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1 @2 Type=Program)" Target="(@1 @2 Type=Program Member=Main)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 @77)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 @79)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 @80)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 @81)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 Member=(Name=.ctor OverloadingParameters=[@55]))" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 Member=Image)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 Member=Mod_Range)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 @68)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=(Name=toString OverloadingParameters=[@26]))" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=field)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=type)" Category="Contains" />
+    <Link Source="@12" Target="(@1 @2 @11 Member=value)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 @68)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=Greater)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=GreaterSame)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=Is)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=Less)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=LessSame)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=Like)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=Not)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @58)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @59)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @60)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @64)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @65)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @68)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @72)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @84)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 @91)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 Member=(Name=getDatabase OverloadingParameters=[@26,@57,@57,@57,@57]))" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 Member=db_name)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 Member=db_password)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 Member=db_server)" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 Member=db_user)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @58)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @59)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @60)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @64)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @65)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @68)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @72)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @73)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @84)" Category="Contains" />
+    <Link Source="@18" Target="(@1 @2 @17 @91)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @58)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @59)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @60)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @64)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @65)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @68)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @72)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @73)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @84)" Category="Contains" />
+    <Link Source="@20" Target="(@1 @2 @19 @91)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @58)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @59)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @60)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @64)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @65)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @68)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @72)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @73)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @84)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @21 @91)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @58)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @59)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @60)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @64)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @65)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @68)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @72)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @73)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @84)" Category="Contains" />
+    <Link Source="@24" Target="(@1 @2 @23 @91)" Category="Contains" />
+    <Link Source="@26" Target="(@1 @2 @25 @68)" Category="Contains" />
+    <Link Source="@26" Target="(@1 @2 @25 Member=Access)" Category="Contains" />
+    <Link Source="@26" Target="(@1 @2 @25 Member=FileSystem)" Category="Contains" />
+    <Link Source="@26" Target="(@1 @2 @25 Member=MSSQL)" Category="Contains" />
+    <Link Source="@26" Target="(@1 @2 @25 Member=MySQL)" Category="Contains" />
+    <Link Source="@26" Target="(@1 @2 @25 Member=XML)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @58)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @59)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @60)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @64)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @65)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @68)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @72)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @73)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @84)" Category="Contains" />
+    <Link Source="@28" Target="(@1 @2 @27 @91)" Category="Contains" />
+    <Link Source="@30" Target="(@1 @2 @29 @68)" Category="Contains" />
+    <Link Source="@30" Target="(@1 @2 @29 Member=Cells)" Category="Contains" />
+    <Link Source="@30" Target="(@1 @2 @29 Member=Height)" Category="Contains" />
+    <Link Source="@30" Target="(@1 @2 @29 Member=Width)" Category="Contains" />
+    <Link Source="@30" Target="@67" Category="Contains" />
+    <Link Source="@32" Target="(@1 @2 @31 @68)" Category="Contains" />
+    <Link Source="@32" Target="(@1 @2 @31 Member=Database)" Category="Contains" />
+    <Link Source="@32" Target="(@1 @2 @31 Member=Players)" Category="Contains" />
+    <Link Source="@32" Target="(@1 @2 @31 Member=World)" Category="Contains" />
+    <Link Source="@32" Target="(@1 @2 @31 Member=database)" Category="Contains" />
+    <Link Source="@32" Target="(@1 @2 @31 Member=players)" Category="Contains" />
+    <Link Source="@32" Target="(@1 @2 @31 Member=world)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @56)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @66)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @68)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @70)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @71)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @74)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @75)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @76)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @82)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @83)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @85)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @86)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @87)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @88)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @89)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 @90)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Armor)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Accuracy)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Attack)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Defense)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Health)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Move)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Points)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Range_Max)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Base_Range_Min)" Category="Contains" />
+    <Link Source="@34" Target="(@1 @2 @33 Member=Weapon)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 @77)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 @79)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 @80)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 @81)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 @83)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 @85)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 Member=(Name=load OverloadingParameters=[@55]))" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 Member=Mod_Accuracy)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 Member=Mod_Health)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 Member=Mod_Range_Max)" Category="Contains" />
+    <Link Source="@36" Target="(@1 @2 @35 Member=Mod_Range_Min)" Category="Contains" />
+    <Link Source="@38" Target="(@1 @2 @37 @68)" Category="Contains" />
+    <Link Source="@38" Target="(@1 @2 @37 Member=(Name=Dispose OverloadingParameters=[(@53 @54 Type=Boolean)]))" Category="Contains" />
+    <Link Source="@38" Target="(@1 @2 @37 Member=InitializeComponent)" Category="Contains" />
+    <Link Source="@38" Target="(@1 @2 @37 Member=components)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=(Name=Dispose OverloadingParameters=[(@53 @54 Type=Boolean)]))" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=(Name=linkLabel_LinkClicked OverloadingParameters=[(@53 @54 Type=Object),(@61 Namespace=System.Windows.Forms Type=LinkLabelLinkClickedEventArgs)]))" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=(Name=okButton_Click OverloadingParameters=[(@53 @54 Type=Object),(@53 @54 Type=EventArgs)]))" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=TopCaption)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=bottomPanel)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=companyNameLabel)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=components)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=copyrightLabel)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=linkLabel)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=mainPicture)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=okButton)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=productNameLabel)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=productVersionLabel)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=shapeContainer1)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=topPanel)" Category="Contains" />
+    <Link Source="@4" Target="@62" Category="Contains" />
+    <Link Source="@4" Target="@63" Category="Contains" />
+    <Link Source="@4" Target="@69" Category="Contains" />
+    <Link Source="@4" Target="@78" Category="Contains" />
+    <Link Source="@40" Target="(@1 @2 @39 @68)" Category="Contains" />
+    <Link Source="@40" Target="(@1 @2 @39 Member=(Name=Dispose OverloadingParameters=[(@53 @54 Type=Boolean)]))" Category="Contains" />
+    <Link Source="@40" Target="(@1 @2 @39 Member=InitializeComponent)" Category="Contains" />
+    <Link Source="@40" Target="(@1 @2 @39 Member=components)" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 @68)" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 @83)" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 Member=Units)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @68)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @70)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @71)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @74)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @75)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @76)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @82)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @83)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @85)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @89)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 @90)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Armor)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Accuracy)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Attack)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Defense)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Health)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Move)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Points)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Range_Max)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Base_Range_Min)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=MainWeapon)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=SecondWeapon)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=Soldiers)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=XP)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @56)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @66)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @68)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @70)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @71)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @74)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @75)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @76)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @82)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @83)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @85)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @86)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @87)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @88)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @89)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 @90)" Category="Contains" />
+    <Link Source="@46" Target="(@1 @2 @45 Member=Soldiers)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @56)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @66)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @70)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @71)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @74)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @75)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @76)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @82)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @83)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @85)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @86)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @87)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @88)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @89)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @90)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 Member=Image)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @56)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @66)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @68)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @70)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @71)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @74)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @75)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @76)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @82)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @83)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @85)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @86)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @87)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @88)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @89)" Category="Contains" />
+    <Link Source="@50" Target="(@1 @2 @49 @90)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 @68)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 @77)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 @79)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 @80)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 @81)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 @83)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 @85)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 Member=(Name=load OverloadingParameters=[@55]))" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 Member=Mod_Accuracy)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 Member=Mod_Health)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 Member=Mod_Range_Max)" Category="Contains" />
+    <Link Source="@52" Target="(@1 @2 @51 Member=Mod_Range_Min)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @68)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @77)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @79)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @80)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @81)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @83)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @85)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=(Name=load OverloadingParameters=[@55]))" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=Mod_Accuracy)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=Mod_Health)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=Mod_Range_Max)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=Mod_Range_Min)" Category="Contains" />
+    <Link Source="@63" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@67" Target="@30" Category="CodeSchema_ReturnTypeLink">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@69" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@62" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@8" Target="(@1 @2 @7 @91)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=(Name=.ctor OverloadingParameters=[@55,@55,@55,@10]))" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=X)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=Y)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=Z)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=type)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=x)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=y)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=z)" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Block" Label="Block" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Blöcke" />
+    <Category Id="CodeSchema_Calls" Label="Aufrufe" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Aufgerufen von" OutgoingActionLabel="Aufrufe" />
+    <Category Id="CodeSchema_Class" Label="Klasse" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Klassen" />
+    <Category Id="CodeSchema_Enum" Label="Enumeration" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" IsProviderRoot="False" NavigationActionLabel="Enumerationen" />
+    <Category Id="CodeSchema_Field" Label="Feld" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" IsProviderRoot="False" NavigationActionLabel="Felder" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Funktionszeiger" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Funktionszeiger" OutgoingActionLabel="Funktionszeiger" />
+    <Category Id="CodeSchema_Interface" Label="Schnittstelle" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" IsProviderRoot="False" NavigationActionLabel="Schnittstellen" />
+    <Category Id="CodeSchema_Member" Label="Member" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" IsProviderRoot="False" NavigationActionLabel="Member" />
+    <Category Id="CodeSchema_Method" Label="Methode" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" IsProviderRoot="False" NavigationActionLabel="Methoden" />
+    <Category Id="CodeSchema_Property" Label="Eigenschaft" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" IsProviderRoot="False" NavigationActionLabel="Eigenschaften" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Rückgabe" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Rückgabetypen" OutgoingActionLabel="Rückgabetypen" />
+    <Category Id="CodeSchema_Statement" Label="Anweisung" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Anweisung" />
+    <Category Id="CodeSchema_Struct" Label="Struktur" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Struct" IsProviderRoot="False" NavigationActionLabel="Strukturen" />
+    <Category Id="CodeSchema_Type" Label="Typ" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Typen" />
+    <Category Id="Contains" Label="Enthält" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Enthalten in" IsContainment="True" OutgoingActionLabel="Enthält" />
+    <Category Id="References" Label="Verweise" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Verweis durch" OutgoingActionLabel="Verweise" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="IsAbstract" Description="IsAbstract" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="IsConstructor" Description="IsConstructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="IsFinal" Description="IsFinal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="IsInternal" Description="IsInternal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="IsPrivate" Description="IsPrivate" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="IsProtected" Description="IsProtected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="IsPublic" Description="IsPublic" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="IsStatic" Description="IsStatic" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="IsVirtual" Description="IsVirtual" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="Icon" Label="Symbol" Description="Symbol" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsDragSource" Label="IsDragSource" Description="IsDragSource" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Anzeigbare Bezeichnung eines Annotatable-Objekts" DataType="System.String" />
+    <Property Id="Language" Label="Sprache" Description="Sprache" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Generische Argumente" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" />
+    <Name Id="GenericParameterCount" Label="Anzahl generischer Parameter" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Typ" ValueType="System.Object" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Weist Kategorie auf">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Weist Kategorie auf">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Typ" ValueLabel="Weist Kategorie auf">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Methode" ValueLabel="Weist Kategorie auf">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Generika" ValueLabel="Weist Kategorie auf">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Extern" ValueLabel="Weist Kategorie auf">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(99a766bb-db08-4b08-a19b-90eeb55ac198.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=StraTic" />
+    <Alias n="3" Id="Type=About" />
+    <Alias n="4" Id="(@1 @2 @3)" />
+    <Alias n="5" Id="Type=Armor" />
+    <Alias n="6" Id="(@1 @2 @5)" />
+    <Alias n="7" Id="Type=Cell" />
+    <Alias n="8" Id="(@1 @2 @7)" />
+    <Alias n="9" Id="Type=CellType" />
+    <Alias n="10" Id="(@1 @2 @9)" />
+    <Alias n="11" Id="Type=Condition" />
+    <Alias n="12" Id="(@1 @2 @11)" />
+    <Alias n="13" Id="Type=ConditionTypes" />
+    <Alias n="14" Id="(@1 @2 @13)" />
+    <Alias n="15" Id="Type=Database" />
+    <Alias n="16" Id="(@1 @2 @15)" />
+    <Alias n="17" Id="Type=DB_Access" />
+    <Alias n="18" Id="(@1 @2 @17)" />
+    <Alias n="19" Id="Type=DB_FileSystem" />
+    <Alias n="20" Id="(@1 @2 @19)" />
+    <Alias n="21" Id="Type=DB_MSSQL" />
+    <Alias n="22" Id="(@1 @2 @21)" />
+    <Alias n="23" Id="Type=DB_MySQL" />
+    <Alias n="24" Id="(@1 @2 @23)" />
+    <Alias n="25" Id="Type=DB_Types" />
+    <Alias n="26" Id="(@1 @2 @25)" />
+    <Alias n="27" Id="Type=DB_XML" />
+    <Alias n="28" Id="(@1 @2 @27)" />
+    <Alias n="29" Id="Type=Field" />
+    <Alias n="30" Id="(@1 @2 @29)" />
+    <Alias n="31" Id="Type=Game" />
+    <Alias n="32" Id="(@1 @2 @31)" />
+    <Alias n="33" Id="Type=Hero" />
+    <Alias n="34" Id="(@1 @2 @33)" />
+    <Alias n="35" Id="Type=Item" />
+    <Alias n="36" Id="(@1 @2 @35)" />
+    <Alias n="37" Id="Type=Main" />
+    <Alias n="38" Id="(@1 @2 @37)" />
+    <Alias n="39" Id="Type=Options" />
+    <Alias n="40" Id="(@1 @2 @39)" />
+    <Alias n="41" Id="Type=Player" />
+    <Alias n="42" Id="(@1 @2 @41)" />
+    <Alias n="43" Id="Type=Soldier" />
+    <Alias n="44" Id="(@1 @2 @43)" />
+    <Alias n="45" Id="Type=Squad" />
+    <Alias n="46" Id="(@1 @2 @45)" />
+    <Alias n="47" Id="Type=Unit" />
+    <Alias n="48" Id="(@1 @2 @47)" />
+    <Alias n="49" Id="Type=Vehicle" />
+    <Alias n="50" Id="(@1 @2 @49)" />
+    <Alias n="51" Id="Type=Weapon" />
+    <Alias n="52" Id="(@1 @2 @51)" />
+    <Alias n="53" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/mscorlib.dll" />
+    <Alias n="54" Id="Namespace=System" />
+    <Alias n="55" Id="(@53 @54 Type=Int32)" />
+    <Alias n="56" Id="Member=(Name=AttackUnit OverloadingParameters=[@48])" />
+    <Alias n="57" Id="(@53 @54 Type=String)" />
+    <Alias n="58" Id="Member=(Name=Delete OverloadingParameters=[@57,(@53 Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[@12]))])" />
+    <Alias n="59" Id="Member=(Name=Select OverloadingParameters=[@57,(@53 Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[@12]))])" />
+    <Alias n="60" Id="Member=(Name=Insert OverloadingParameters=[@57,(@53 Namespace=System.Collections.Generic Type=(Name=Dictionary GenericParameterCount=2 GenericArguments=[@57,@57]))])" />
+    <Alias n="61" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/Profile/Client/System.Windows.Forms.dll" />
+    <Alias n="62" Id="(@1 @2 @3 Member=(Name=topPanel_Paint OverloadingParameters=[(@53 @54 Type=Object),(@61 Namespace=System.Windows.Forms Type=PaintEventArgs)]))" />
+    <Alias n="63" Id="(@1 @2 @3 Member=(Name=.ctor OverloadingParameters=[@57,@57]))" />
+    <Alias n="64" Id="Member=(Name=Select OverloadingParameters=[@57,(@53 Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[@12])),(@53 Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[@57]))])" />
+    <Alias n="65" Id="Member=(Name=Update OverloadingParameters=[@57,(@53 Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1 GenericArguments=[@12])),(@53 Namespace=System.Collections.Generic Type=(Name=Dictionary GenericParameterCount=2 GenericArguments=[@57,@57]))])" />
+    <Alias n="66" Id="Member=(Name=MoveTo OverloadingParameters=[@55,@55,@55])" />
+    <Alias n="67" Id="(@1 @2 @29 Member=(Name=createField OverloadingParameters=[@55,@55,@55,@55]))" />
+    <Alias n="68" Id="Member=.ctor" />
+    <Alias n="69" Id="(@1 @2 @3 @68)" />
+    <Alias n="70" Id="Member=Accuracy" />
+    <Alias n="71" Id="Member=Attack" />
+    <Alias n="72" Id="Member=close" />
+    <Alias n="73" Id="Member=Connection" />
+    <Alias n="74" Id="Member=Defense" />
+    <Alias n="75" Id="Member=Health_Current" />
+    <Alias n="76" Id="Member=Health_Max" />
+    <Alias n="77" Id="Member=ID" />
+    <Alias n="78" Id="(@1 @2 @3 Member=InitializeComponent)" />
+    <Alias n="79" Id="Member=Mod_Attack" />
+    <Alias n="80" Id="Member=Mod_Defense" />
+    <Alias n="81" Id="Member=Mod_Move" />
+    <Alias n="82" Id="Member=Move" />
+    <Alias n="83" Id="Member=Name" />
+    <Alias n="84" Id="Member=open" />
+    <Alias n="85" Id="Member=Points" />
+    <Alias n="86" Id="Member=POS_X" />
+    <Alias n="87" Id="Member=POS_Y" />
+    <Alias n="88" Id="Member=POS_Z" />
+    <Alias n="89" Id="Member=Range_Max" />
+    <Alias n="90" Id="Member=Range_Min" />
+    <Alias n="91" Id="Member=Type" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="99a766bb-db08-4b08-a19b-90eeb55ac198.OutputPathUri" Value="file:///C:/User/Code/Übung/StraTic/StraTic/bin/Debug/StraTic.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

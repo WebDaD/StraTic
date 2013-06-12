@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Main Class&#xD;&#xA;">
+    <Position X="6.838" Y="4.177" Height="0.334" Width="0.923" />
+  </Comment>
+  <Comment CommentText="TODO&#xD;&#xA;&#xD;&#xA;ALL CONSTRUCTORS:&#xD;&#xA;&#xD;&#xA;LOAD FROM DATABASE!">
+    <Position X="7.272" Y="1.096" Height="1.371" Width="1.7" />
+  </Comment>
+  <Comment CommentText="TODO:&#xD;&#xA;How to save images in MySQL Longblob?&#xD;&#xA;&#xD;&#xA;http://guruparan.blog.com/2011/06/15/saving-and-retriving-images-from-mysql-databases-using-c-part2/">
+    <Position X="0.5" Y="14.745" Height="1.075" Width="4.819" />
+  </Comment>
+  <Comment CommentText="Field is a schachbrett">
+    <Position X="3.292" Y="10.009" Height="0.348" Width="1.7" />
+  </Comment>
+  <Comment CommentText="TODO:&#xD;&#xA;&#xD;&#xA;Comment everything!">
+    <Position X="19.386" Y="9.052" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="StraTic.Cell">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <AssociationLine Name="Type" Type="StraTic.CellType">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.05" Y="0.318" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQBgAQAAYAE=</HashCode>
+      <FileName>Classes\Field\Cell.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.CellType">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAQAAAAAAAAAAgAAAQBEAAEEBAAAAAABAAIAAA=</HashCode>
+      <FileName>Classes\Field\CellType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Field">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABAAAAAAAAAIAgEACAAAAAAggAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Field\Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Game">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAAAAAAAAACAAAAAAIgAAAAIAAAAIAAAAA=</HashCode>
+      <FileName>Classes\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="World" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.Database">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <AssociationLine Name="Type" Type="StraTic.DB_Types">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.225" Y="0.039" Height="0.182" Width="0.639" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAACAAACAACAAAABAAAMBAAAAAYAAQQAAQAA=</HashCode>
+      <FileName>Classes\Database\Database.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.DB_MySQL">
+    <Position X="8.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAGAACAAAAAAAAEAAAAAAYAAQAAAAAA=</HashCode>
+      <FileName>Classes\Database\DB_MySQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.DB_MSSQL">
+    <Position X="10.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAGAACAAAAAAAAEAAAAAAYAAQAAAAAA=</HashCode>
+      <FileName>Classes\Database\DB_MSSQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.DB_Access">
+    <Position X="12.25" Y="11.25" Width="1.5" />
+    <InheritanceLine Type="StraTic.Database" FixedToPoint="true">
+      <Path>
+        <Point X="9.5" Y="10.613" />
+        <Point X="9.5" Y="10.875" />
+        <Point X="13" Y="10.875" />
+        <Point X="13" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAGAACAAAAAAAAEAAAAAAYAAQAAAAAA=</HashCode>
+      <FileName>Classes\Database\DB_Access.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.DB_FileSystem">
+    <Position X="15.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAGAACAAAAAAAAEAAAAAAYAAQAAAAAA=</HashCode>
+      <FileName>Classes\Database\DB_FileSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.DB_XML">
+    <Position X="14" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAGAACAAAAAAAAEAAAAAAYAAQAAAAAA=</HashCode>
+      <FileName>Classes\Database\DB_XML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Vehicle">
+    <Position X="7.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAJgAgIAACAAIAAQAAICIABEAAAAAIgAAAAQ=</HashCode>
+      <FileName>Classes\Unit\Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StraTic.Squad">
+    <Position X="3.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAZgAgIAACAAIAAQAAICIABEAAAAAIgAAAAQ=</HashCode>
+      <FileName>Classes\Unit\Squad.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StraTic.Soldier">
+    <Position X="3.75" Y="21.5" Width="1.5" />
+    <AssociationLine Name="MainWeapon" Type="StraTic.Weapon">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.277" Y="2.633" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SecondWeapon" Type="StraTic.Weapon">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.202" Y="1.716" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Armor" Type="StraTic.Armor">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.723" Y="0.122" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAYgAwoQACAAIgAQAAIFEAAIAECAAIgAAACA=</HashCode>
+      <FileName>Classes\Unit\Soldier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainWeapon" />
+      <Property Name="SecondWeapon" />
+      <Property Name="Armor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.Hero">
+    <Position X="5.75" Y="16.25" Width="1.5" />
+    <AssociationLine Name="Weapon" Type="StraTic.Weapon">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.942" Y="2.268" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>kAAAAAACAJgAgoQACAAIgAQAAICMABsAECAAIgAAACQ=</HashCode>
+      <FileName>Classes\Unit\Hero.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Weapon" />
+      <Property Name="Armor" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StraTic.Weapon">
+    <Position X="6" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAABAMAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
+      <FileName>Classes\Items\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StraTic.Armor">
+    <Position X="3.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAABAMAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
+      <FileName>Classes\Items\Armor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StraTic.Campaign">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAI=</HashCode>
+      <FileName>Classes\Scenarios\Campaign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Scenario">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <AssociationLine Name="Game" Type="StraTic.Game">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.255" Y="4.367" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Scenarios\Scenario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.WinningConditions">
+    <Position X="13" Y="1" Width="1.5" />
+    <AssociationLine Name="WinningType" Type="StraTic.WinningTypes">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.274" Y="0.027" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Scenarios\WinningConditions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="WinningType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.MainControl">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <AssociationLine Name="Database" Type="StraTic.Database">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.82" Y="0.388" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Game" Type="StraTic.Game">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.676" Y="0.455" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAUEAAAAAAAACEAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Control.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database" />
+      <Property Name="Game" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.WC_DestroyAll">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="StraTic.WinningConditions" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="2.113" />
+        <Point X="13.75" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Classes\Scenarios\WC_DestroyAll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.WC_ConquerCells">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Scenarios\WC_ConquerCells.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.WC_Survive">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Classes\Scenarios\WC_Survive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.WC_DestroyUnits">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Scenarios\WC_DestroyUnits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Player">
+    <Position X="24" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PlayerType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.Human">
+    <Position X="26.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Player\Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.AI">
+    <Position X="24" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Player\AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Skill">
+    <Position X="9.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Skill.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SkillType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.Mech">
+    <Position X="10" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Mech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Tank">
+    <Position X="10" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Transport">
+    <Position X="10" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Transport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Fighter">
+    <Position X="10" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Fighter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.Event">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EventType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StraTic.E_Message">
+    <Position X="24" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAACA=</HashCode>
+      <FileName>E_Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StraTic.Condition">
+    <Position X="14.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAABAAAAAABACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Database\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="StraTic.Unit">
+    <Position X="5.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAACAJgAgIAACAAIAAQAAICIABEAAAAAIgAAAAQ=</HashCode>
+      <FileName>Classes\Unit\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StraTic.Item">
+    <Position X="6" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABAABAMAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
+      <FileName>Classes\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="StraTic.DB_Types">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAAEAAAAAAACAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Database\DB_Types.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StraTic.ConditionTypes">
+    <Position X="16.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAAAAAAAAAAAAAAAAAAAACBAAAAAQQAAAAABAAA=</HashCode>
+      <FileName>Classes\Database\ConditionTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StraTic.SkillType">
+    <Position X="12" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\SkillType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StraTic.WinningTypes">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAEAAACAAAAAAIAAAA=</HashCode>
+      <FileName>Classes\Scenarios\WinningTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StraTic.PlayerType">
+    <Position X="26.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Classes\Player\PlayerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StraTic.EventType">
+    <Position X="26.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAIAAAAAA=</HashCode>
+      <FileName>EventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

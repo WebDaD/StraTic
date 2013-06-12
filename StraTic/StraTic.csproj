@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99A766BB-DB08-4B08-A19B-90EEB55AC198}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StraTic</RootNamespace>
+    <AssemblyName>StraTic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Player\AI.cs" />
+    <Compile Include="Classes\Scenarios\Campaign.cs" />
+    <Compile Include="Classes\Control.cs" />
+    <Compile Include="Classes\Unit\Fighter.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="EventType.cs" />
+    <Compile Include="E_Message.cs" />
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Items\Armor.cs" />
+    <Compile Include="Classes\Field\Cell.cs" />
+    <Compile Include="Classes\Field\CellType.cs" />
+    <Compile Include="Classes\Field\Field.cs" />
+    <Compile Include="Classes\Database\Database.cs" />
+    <Compile Include="Classes\Database\ConditionTypes.cs" />
+    <Compile Include="Classes\Database\DB_Types.cs" />
+    <Compile Include="Classes\Database\Condition.cs" />
+    <Compile Include="Classes\Database\DB_MySQL.cs" />
+    <Compile Include="Classes\Database\DB_Access.cs" />
+    <Compile Include="Classes\Database\DB_FileSystem.cs" />
+    <Compile Include="Classes\Database\DB_MSSQL.cs" />
+    <Compile Include="Classes\Database\DB_XML.cs" />
+    <Compile Include="Forms\Editor\Campaign\Campaigns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\Campaigns.Designer.cs">
+      <DependentUpon>Campaigns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\EditCampaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\EditCampaign.Designer.cs">
+      <DependentUpon>EditCampaign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\EditScenario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\EditScenario.Designer.cs">
+      <DependentUpon>EditScenario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\NewCampaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\NewCampaign.Designer.cs">
+      <DependentUpon>NewCampaign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\NewScenario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\NewScenario.Designer.cs">
+      <DependentUpon>NewScenario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\Scenarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Campaign\Scenarios.Designer.cs">
+      <DependentUpon>Scenarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\EditField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\EditField.Designer.cs">
+      <DependentUpon>EditField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\EditFieldType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\EditFieldType.Designer.cs">
+      <DependentUpon>EditFieldType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\Fields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\Fields.Designer.cs">
+      <DependentUpon>Fields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\FieldTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\FieldTypes.Designer.cs">
+      <DependentUpon>FieldTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\NewField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\NewField.Designer.cs">
+      <DependentUpon>NewField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\NewFieldType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Field\NewFieldType.Designer.cs">
+      <DependentUpon>NewFieldType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Unit\EditUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Unit\EditUnit.Designer.cs">
+      <DependentUpon>EditUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Unit\NewUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Unit\NewUnit.Designer.cs">
+      <DependentUpon>NewUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Editor\Unit\Units.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Editor\Unit\Units.Designer.cs">
+      <DependentUpon>Units.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Game\Field.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Game\Field.Designer.cs">
+      <DependentUpon>Field.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Game.cs" />
+    <Compile Include="Classes\Unit\Hero.cs" />
+    <Compile Include="Classes\Items\Item.cs" />
+    <Compile Include="Forms\Admin\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Player\Human.cs" />
+    <Compile Include="Classes\Player\Player.cs" />
+    <Compile Include="Classes\Unit\Mech.cs" />
+    <Compile Include="Classes\Player\PlayerType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Unit\Unit.cs" />
+    <Compile Include="Classes\Unit\Vehicle.cs" />
+    <Compile Include="Classes\Unit\Squad.cs" />
+    <Compile Include="Classes\Unit\Soldier.cs" />
+    <Compile Include="Classes\Items\Weapon.cs" />
+    <Compile Include="Classes\Scenarios\Scenario.cs" />
+    <Compile Include="Classes\Scenarios\WinningConditions.cs" />
+    <Compile Include="Classes\Unit\SkillType.cs" />
+    <Compile Include="Classes\Scenarios\WinningTypes.cs" />
+    <Compile Include="Classes\Scenarios\WC_ConquerCells.cs" />
+    <Compile Include="Classes\Scenarios\WC_DestroyAll.cs" />
+    <Compile Include="Classes\Scenarios\WC_DestroyUnits.cs" />
+    <Compile Include="Classes\Scenarios\WC_Survive.cs" />
+    <Compile Include="Classes\Unit\Skill.cs" />
+    <Compile Include="Classes\Unit\Tank.cs" />
+    <Compile Include="Classes\Unit\Transport.cs" />
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Editor\Campaign\NewCampaign.resx">
+      <DependentUpon>NewCampaign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Game\Field.resx">
+      <DependentUpon>Field.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gamestart.sequencediagram.layout">
+      <DependentUpon>gamestart.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="classes.cd" />
+    <None Include="gamestart.sequencediagram" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
