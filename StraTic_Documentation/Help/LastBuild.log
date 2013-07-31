@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="C:\User\Code\Übung\StraTic\StraTic_Documentation\StraTic_Documentation.shfbproj" started="31.07.2013 15:49:49">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\User\Code\&#220;bung\StraTic\StraTic\StraTic.csproj
+    Found project &#39;C:\User\Code\&#220;bung\StraTic\StraTic\StraTic.csproj&#39;
+Source: C:\User\Code\&#220;bung\StraTic\StraTic-Win\StraTic-Win.csproj
+    Found project &#39;C:\User\Code\&#220;bung\StraTic\StraTic-Win\StraTic-Win.csproj&#39;
+
+Parsing project files
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="Failed">
+
+SHFB: Error BE0040: Project assembly does not exist: C:\User\Code\&#220;bung\StraTic\StraTic\bin\Debug\StraTic.dll
+
+</buildStep>
+</shfbBuild>

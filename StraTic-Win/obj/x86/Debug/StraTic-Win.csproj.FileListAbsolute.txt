@@ -1,0 +1,6 @@
+C:\User\Code\Übung\StraTic\StraTic-Win\obj\x86\Debug\StraTic.About.resources
+C:\User\Code\Übung\StraTic\StraTic-Win\obj\x86\Debug\StraTic.Forms.Editor.Campaign.NewCampaign.resources
+C:\User\Code\Übung\StraTic\StraTic-Win\obj\x86\Debug\StraTic.Forms.Game.Field.resources
+C:\User\Code\Übung\StraTic\StraTic-Win\obj\x86\Debug\StraTic.Main.resources
+C:\User\Code\Übung\StraTic\StraTic-Win\obj\x86\Debug\StraTic_Win.Properties.Resources.resources
+C:\User\Code\Übung\StraTic\StraTic-Win\obj\x86\Debug\StraTic-Win.csproj.GenerateResource.Cache

@@ -7,15 +7,21 @@ namespace StraTic
 {
     public class Soldier
     {
+        private int base_accuracy;
+
+        public Soldier(Database database, int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        /// <summary>
+        /// Final Accuracy. Calculated by summing base_accuracy, armor and weapon mods
+        /// </summary>
         public int Accuracy
         {
             get
             {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
+                return base_accuracy + Armor.Mod_Accuracy + MainWeapon.Mod_Accuracy;
             }
         }
 

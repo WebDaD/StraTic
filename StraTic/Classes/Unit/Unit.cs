@@ -89,6 +89,7 @@ namespace StraTic
         int Health_Current
         {
             get;
+            set;
         }
 
         /// <summary>

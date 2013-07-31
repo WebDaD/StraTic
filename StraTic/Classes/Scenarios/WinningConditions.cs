@@ -19,5 +19,10 @@ namespace StraTic
         }
 
         public abstract Boolean isVictory();
+
+        public WinningConditions load()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

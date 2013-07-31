@@ -11,6 +11,8 @@ namespace StraTic
         private Field world;
         private List<Player> players;
         private List<WinningConditions> winningconditions;
+        private int max_rounds;
+        private int current_rounds;
 
         public Game(List<Player> players, List<WinningConditions> winnigsconditions, Field world)
         {
@@ -52,6 +54,28 @@ namespace StraTic
         }
 
         public List<WinningConditions> WinningConditions
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int Current_Round
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public int Max_Rounds
         {
             get
             {

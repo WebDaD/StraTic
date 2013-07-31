@@ -5,9 +5,7 @@ using System.Text;
 
 namespace StraTic
 {
-    public enum SkillType
+    public class Battleship : Vehicle
     {
-        Attack,
-        Mod
     }
 }

@@ -126,10 +126,5 @@ namespace StraTic
                 throw new NotImplementedException();
             }
         }
-
-        public Item load(int id)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

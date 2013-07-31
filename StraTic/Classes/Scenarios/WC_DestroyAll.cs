@@ -11,7 +11,13 @@ namespace StraTic
     
         public override bool isVictory()
         {
-            throw new NotImplementedException();
+            if (enemy.Units.Count > 0) return false;
+            else return true;
+        }
+
+        public WC_DestroyAll(Player enemy)
+        {
+            this.enemy = enemy;
         }
     }
 }

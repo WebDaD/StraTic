@@ -43,15 +43,19 @@ namespace StraTic
             }
         }
 
+        /// <summary>
+        /// Accuracy, calculated as average from all soldiers
+        /// </summary>
         public int Accuracy
         {
             get
             {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
+                double val = 0;
+                foreach (Soldier s in Soldiers)
+                {
+                    val += s.Accuracy;
+                }
+                return (int)(val / Soldiers.Count);
             }
         }
 
@@ -210,10 +214,20 @@ namespace StraTic
             }
         }
 
-
-        public int performSkill(Skill skill, Cell target)
+        /// <summary>
+        /// Performs the selected Skill on a Target
+        /// </summary>
+        /// <param name="skill">Skill to Use</param>
+        /// <param name="target">Target Unit</param>
+        /// <returns>Final Value</returns>
+        public int performSkill(Skill skill, Unit target)
         {
-            throw new NotImplementedException();
+            return skill.callSkill(target);
+        }
+
+        public Squad(Database database, int id)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

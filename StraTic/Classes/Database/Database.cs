@@ -28,7 +28,7 @@ namespace StraTic
         /// <param name="table">Table to Get Data From</param>
         /// <param name="conditions">List of Conditions</param>
         /// <param name="fields">Fields to read data from</param>
-        /// <returns>A Dictionary consisting of id and Dictionary of field and value</returns>
+        /// <returns>A Dictionary consisting of id and Dictionary of value and value</returns>
         public abstract Dictionary<int, Dictionary<string, string>> Select(string table, List<Condition> conditions, List<string> fields);
 
         /// <summary>
@@ -92,9 +92,9 @@ namespace StraTic
         /// Gets Data From a Table
         /// </summary>
         /// <param name="table">Table to get Data</param>
-        /// <param name="field">Fieldname</param>
+        /// <param name="value">Fieldname</param>
         /// <param name="conditions">List of Confitions</param>
-        /// <returns>A Dictionary consisting of id and Dictionary of field and value</returns>
+        /// <returns>A Dictionary consisting of id and Dictionary of value and value</returns>
         public abstract System.Collections.Generic.Dictionary<int, Dictionary<string, string>> Select(string table, string field, List<Condition> conditions);
 
         /// <summary>

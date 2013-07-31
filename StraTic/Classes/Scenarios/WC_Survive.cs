@@ -8,10 +8,18 @@ namespace StraTic
     public class WC_Survive : WinningConditions
     {
         private int rounds;
+        private Game game;
+
+        public WC_Survive(Game game, int rounds)
+        {
+            this.game = game;
+            this.rounds = rounds;
+        }
     
         public override bool isVictory()
         {
-            throw new NotImplementedException();
+            if (rounds >= game.Current_Round) return true;
+            else return false;
         }
     }
 }

@@ -19,6 +19,15 @@ namespace StraTic
             this.z = z;
             this.type = t;
         }
+
+        public bool hasUnit(Player player)
+        {
+            foreach (Unit u in player.Units)
+            {
+                if (u.POS_X == x && u.POS_Y == y && u.POS_Z == z) return true;
+            }
+            return false;
+        }
     
         public int X
         {

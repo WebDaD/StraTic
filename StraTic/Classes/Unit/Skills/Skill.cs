@@ -13,9 +13,14 @@ namespace StraTic
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
+
+        public abstract int Value
+        {
+            get;
+            set;
+        }
+
+        public abstract int callSkill(Unit target);
     }
 }

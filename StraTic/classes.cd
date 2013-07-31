@@ -15,6 +15,9 @@
   <Comment CommentText="TODO:&#xD;&#xA;&#xD;&#xA;Comment everything!">
     <Position X="19.386" Y="9.052" Height="0.75" Width="1.7" />
   </Comment>
+  <Comment CommentText="TODO&#xD;&#xA;Comment These">
+    <Position X="17.034" Y="4.824" Height="0.75" Width="1.7" />
+  </Comment>
   <Class Name="StraTic.Cell">
     <Position X="0.75" Y="6.75" Width="1.5" />
     <AssociationLine Name="Type" Type="StraTic.CellType">
@@ -23,7 +26,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQBgAQAAYAE=</HashCode>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAABAAAAAQBgAQAAYAE=</HashCode>
       <FileName>Classes\Field\Cell.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -47,7 +50,7 @@
   <Class Name="StraTic.Game">
     <Position X="5.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAEAAAABAAAAAAAAACAAAAAAIgAAAAIAAAAIAAAAA=</HashCode>
+      <HashCode>AAAAEAAAABAAAAAAAAACAAAAAAIgAAAAoACABIACAAA=</HashCode>
       <FileName>Classes\Game.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -134,11 +137,11 @@
     </AssociationLine>
     <AssociationLine Name="Armor" Type="StraTic.Armor">
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.723" Y="0.122" />
+        <Position X="0.122" Y="-0.723" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAYgAwoQACAAIgAQAAIFEAAIAECAAIgAAACA=</HashCode>
+      <HashCode>gAAAAAAAAYgAwoQACAAIgAQAAIFEAAIAECAAIoAAACA=</HashCode>
       <FileName>Classes\Unit\Soldier.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -151,7 +154,7 @@
     <Position X="5.75" Y="16.25" Width="1.5" />
     <AssociationLine Name="Weapon" Type="StraTic.Weapon">
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.942" Y="2.268" />
+        <Position X="1.975" Y="3.518" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -165,17 +168,17 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="StraTic.Weapon">
-    <Position X="6" Y="26.75" Width="1.5" />
+    <Position X="9" Y="26.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEABAABAMAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
+      <HashCode>AAEABAABAEAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
       <FileName>Classes\Items\Weapon.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="StraTic.Armor">
-    <Position X="3.75" Y="26.75" Width="1.5" />
+    <Position X="7.25" Y="26.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEABAABAMAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
+      <HashCode>AAEABACBAEAAgAAAQAgAAAQBAAAEAAAAEAAABAQIAhE=</HashCode>
       <FileName>Classes\Items\Armor.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -191,7 +194,7 @@
     <Position X="2.5" Y="0.75" Width="1.5" />
     <AssociationLine Name="Game" Type="StraTic.Game">
       <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
-        <Position X="1.38" Y="3.888" Height="0.182" Width="0.611" />
+        <Position X="3.888" Y="1.38" Height="0.182" Width="0.611" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -210,7 +213,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AIAAAAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Scenarios\WinningConditions.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -239,28 +242,28 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="StraTic.WC_DestroyAll">
-    <Position X="13" Y="2.5" Width="1.5" />
+    <Position X="13" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Classes\Scenarios\WC_DestroyAll.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StraTic.WC_ConquerCells">
-    <Position X="14.75" Y="2.5" Width="1.5" />
+    <Position X="14.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAgACAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Scenarios\WC_ConquerCells.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StraTic.WC_Survive">
-    <Position X="16.5" Y="2.5" Width="1.5" />
+    <Position X="16.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAA=</HashCode>
       <FileName>Classes\Scenarios\WC_Survive.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StraTic.WC_DestroyUnits">
-    <Position X="18.25" Y="2.5" Width="1.5" />
+    <Position X="18.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Scenarios\WC_DestroyUnits.cs</FileName>
@@ -269,7 +272,7 @@
   <Class Name="StraTic.Player">
     <Position X="24" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>Classes\Player\Player.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -291,10 +294,10 @@
     </TypeIdentifier>
   </Class>
   <Class Name="StraTic.Skill">
-    <Position X="9.25" Y="22" Width="1.5" />
+    <Position X="15.5" Y="20" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Unit\Skill.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Skills\Skill.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="SkillType" />
@@ -345,6 +348,35 @@
       <FileName>Classes\Scenarios\E_Message.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="StraTic.Battleship">
+    <Position X="12" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Battleship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.AttackSkill">
+    <Position X="15.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Skills\AttackSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraTic.ModSkill">
+    <Position X="18" Y="22" Width="1.5" />
+    <AssociationLine Name="UnitProperties" Type="StraTic.UnitProperties">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.234" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAAAgAAABAAA=</HashCode>
+      <FileName>Classes\Unit\Skills\ModSkill.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UnitProperties" />
+    </ShowAsAssociation>
+  </Class>
   <Struct Name="StraTic.Condition">
     <Position X="14.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
@@ -360,9 +392,9 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="StraTic.Item">
-    <Position X="6" Y="30.25" Width="1.5" />
+    <Position X="11" Y="26.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEABAABAMAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
+      <HashCode>AAEABAABAEAAgAAAAAAAAAQAAAAAAAAAEAAABAAIAAA=</HashCode>
       <FileName>Classes\Items\Item.cs</FileName>
     </TypeIdentifier>
   </Interface>
@@ -381,10 +413,10 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="StraTic.SkillType">
-    <Position X="12" Y="22" Width="1.5" />
+    <Position X="18.25" Y="20" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Unit\SkillType.cs</FileName>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Unit\Skills\SkillType.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="StraTic.WinningTypes">
@@ -395,7 +427,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="StraTic.PlayerType">
-    <Position X="26.25" Y="2.25" Width="1.5" />
+    <Position X="26.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
       <FileName>Classes\Player\PlayerType.cs</FileName>
@@ -406,6 +438,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAIAAAAAA=</HashCode>
       <FileName>Classes\Scenarios\EventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StraTic.UnitProperties">
+    <Position X="21.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIgAAAAACAAIAAAAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Classes\Unit\UnitProperties.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

@@ -39,5 +39,16 @@ namespace StraTic
             {
             }
         }
+
+        public List<Skill> Skills
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

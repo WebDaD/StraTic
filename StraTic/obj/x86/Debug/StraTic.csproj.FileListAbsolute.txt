@@ -10,3 +10,5 @@ C:\User\Code\Übung\StraTic\StraTic\bin\Debug\StraTic.exe
 C:\User\Code\Übung\StraTic\StraTic\bin\Debug\StraTic.pdb
 C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.exe
 C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.pdb
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.csprojResolveAssemblyReference.cache
+C:\User\Code\Übung\StraTic\StraTic\obj\x86\Debug\StraTic.csproj.GenerateResource.Cache
